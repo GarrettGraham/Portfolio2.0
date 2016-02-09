@@ -1,0 +1,22 @@
+{
+  "name": "portfolio2.0",
+  "version": "1.0.0",
+  "description": "Creating a new repo in order to create a new portfolio while keeping my previous portfolios online until I can change them. I'd like to change my github pages portfolio back into a blog which need refactoring",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GarrettGraham/Portfolio2.0.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GarrettGraham/Portfolio2.0/issues"
+  },
+  "homepage": "https://github.com/GarrettGraham/Portfolio2.0#readme",
+  "dependencies": {
+    "wiredep": "^3.0.0"
+  }
+}

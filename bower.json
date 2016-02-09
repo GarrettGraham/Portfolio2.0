@@ -1,0 +1,21 @@
+{
+  "name": "portfolio2.0",
+  "description": "Creating a new repo in order to create a new portfolio while keeping my previous portfolios online until I can change them. I'd like to change my github pages portfolio back into a blog which need refactoring",
+  "main": "index.js",
+  "authors": [
+    "Garrett Graham <ganderson7197@icloud.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/GarrettGraham/Portfolio2.0",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}

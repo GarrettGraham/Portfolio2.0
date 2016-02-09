@@ -97,13 +97,50 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.header {
+  background-color: #0099FF;
+  padding-top:10px;
+  padding-left:50px;
+  padding-right:50px;
+}
 
+.profile-image {
+  height: 200px;
+  width: 200px;
+}
 
+.name {
+  color: white;
+}
 
+.designation {
+  color: white;
+}
 
+.skills {
+  background-color: white;
+  padding-right:50px;
+  padding-left:80px;
+  padding-bottom:20px;
+}
 
+.footer {
+  background-color: #0099FF;
+  padding-left:50px;
+  padding-right:50px;
+}
 
+.link {
+  color: white;
+  padding-left:50px;
+  padding-right:50px;
+  transition: all .5s ease-in-out;
+}
 
+.link:hover {
+  transform: scale(1.5);
+
+}
 
 
 

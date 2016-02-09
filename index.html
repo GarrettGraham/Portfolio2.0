@@ -15,14 +15,62 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <!-- bower:css -->
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+        <!-- endbower -->
     </head>
     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+        <!-- Header Section -->
+        <div class="container-fluid header">
+          <div class="row">
+            <div class="col-md-2">
+              <img src="../img/Garrett.jpg" alt="my image" class="img-responsive profile-image img-circle" />
+            </div>
+            <div class="col-md-10">
+              <h1 class="text-uppercase name">Garrett Lee Graham Anderson</h1>
+                <h3 class="designation"><em>(Jr.) Front-End Developer</em></h3>
+            </div>
+          </div>
+          <hr />
+        </div>
+        <!-- END:Header Section -->
 
-        <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+        <!-- Experience Section -->
+        <div class="container-fluid experience"></div>
+        <!-- END: Experience Section -->
+
+        <!-- Project Section -->
+        <div class="container-fluid projects"></div>
+        <!-- END: Project Section -->
+
+        <!-- Skills Section -->
+        <div class="container-fluid skills">
+          <h1 class="text-uppercase text-center"><em><strong>Skills</strong></em></h1>
+          <div class="row skills-images">
+            
+          </div>
+        </div>
+        <!-- END: Skills Section -->
+
+        <!-- Footer Section -->
+        <div class="container-fluid footer">
+          <div class="row">
+            <div class="col-md-4">
+              <h6>Copyright &copy; 2016 Garrett Lee Graham Anderson</h6>
+            </div>
+            <div class="col-md-8">
+              <a href=""><span class="link">Facebook</span></a>
+              <a href=""><span class="link">LinkedIn</span></a>
+              <a href=""><span class="link">Twitter</span></a>
+              <a href=""><span class="link">GitHub</span></a>
+            </div>
+          </div>
+        </div>
+        <!-- END: Footer Section -->
+
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
@@ -38,5 +86,9 @@
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-XXXXX-X');ga('send','pageview');
         </script>
+        <!-- bower:js -->
+        <script src="bower_components/jquery/dist/jquery.js"></script>
+        <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+        <!-- endbower -->
     </body>
 </html>
